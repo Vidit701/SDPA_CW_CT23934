@@ -1,6 +1,6 @@
 from CoffeeShop import CoffeeShop
 from Barista import Barista
-from Supplier import Supplier
+from Part1.Supplier import Supplier
 
 def main():
     pass
