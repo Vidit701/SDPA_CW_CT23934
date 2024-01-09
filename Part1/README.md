@@ -18,7 +18,7 @@ Follow the step-by-step instructions to simulate the coffee shop's operations.
 
 Let us examine each of the files (CoffeeShop.py, Barista.py, Supplier.py, and main.py) and elucidate the intent behind each class and function.
 
-1. CoffeeShop.py
+## 1. CoffeeShop.py
 The CoffeeShop class is contained in this file. Managing the coffee shop's operations forms the basis of your simulation. Important characteristics consist of:
 
 Features: Keeps track of the coffee shop's inventory (pantry), cash balance, and barista roster.
@@ -37,7 +37,7 @@ check_constraints() verifies a number of constraints, including labour and inven
 After selling coffee, the update_pantry() function updates the pantry.
 update_pantry(): Following the sale of coffee, updates the pantry.
 
-2. Barista.py
+## 2. Barista.py
 The Barista class is defined in this file. Representing the workers in the coffee shop is the responsibility of the Barista class. Important features consist of:
 
 Attributes: Contains the name, specialty, hourly fee, and work hours that the barista is available for.
@@ -46,13 +46,14 @@ calculate_payment(): Determines the barista's total payment amount based on thei
 reset_capacity(): Once called at the beginning of each month, this function resets the barista's available work hours.
 prepare_coffee(): Subtracts from the barista's available labour hours the amount of time required to prepare coffee.
 
-3. Supplier.py
+
+## 3. Supplier.py
 The Supplier class is contained in this file. The coffee shop's inventory must be managed, and this requires the Supplier class. Important characteristics consist of:
 Features: Name of supplier and cost for each items are included.
 Techniques:
 purchase_ingredients(): Manages the supplier's ingredient purchases, keeping track of the store's inventory and cash balance.
 
-4. main.py
+## 4. main.py
 The primary script for the entire simulation is contained in this file. It includes your program's entry point, the main() function, and imports the CoffeeShop, Barista, and Supplier classes. Important characteristics consist of:
 
 The simulation is coordinated by the main() method. After creating an instance of the CoffeeShop, it goes into a loop that lets the user manage baristas, sell coffee, and see the shop's status at the end of each month for a number of months that they can specify.
