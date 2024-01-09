@@ -1,7 +1,6 @@
 # Simulation of a Coffee Shop Overview
 This Coffee Shop Simulation is an interactive tool that tries to show how a coffee shop works in real life. It covers a lot of different areas, such as managing supplies, baristas, finances, and sales over a number of months chosen by the user. There are four main parts to the programme: the CoffeeShop, the Barista, the Supplier, and the main execution file.
 
-
 # Organisation of Files
 CoffeeShop.py: This file describes the CoffeeShop class, which handles cash flow, supplies, and barista tasks.
 Barista.py: The file contains Barista class, which is in charge of the barista abilities and how they work.
@@ -21,10 +20,9 @@ To simulate how the coffee shop works, follow the step-by-step directions.
 # Let's look at each file to understand what each class and method is supposed to do.
 ## 1. CoffeeShop.py
 This is the file that has the CoffeeShop class. The main part of the simulation is running the coffee shop. These are some important characteristics:
+Attributes: It keeps track of the coffee shop's stock (pantry), cash flow, and schedule of baristas.
 
-Features: It keeps track of the coffee shop's stock (pantry), cash flow, and schedule of baristas.
-
-Functions: Tasks
+Functions: 
 Add_barista(): A Barista is initialised with this function.
 remove_barista(): This function is called to remove a barista from business.
 Sell_coffee(): Coffee sales management and updating the cash balance and inventory are .
@@ -45,7 +43,6 @@ calculate_payment(): Defines the total salary of a Barista depending on the hour
 reset_capacity(): This function refreshes the Barista's available working hours every month.
 prepare_coffee(): The time taken to prepare the coffee is subtracted from the available working hours with this function.
 
-
 ## 3. Supplier.py
 The Supplier class is contained in this file. The coffee shop needs to keep track of its stock, which can only be done with the Supplier class.
 Features: Name of supplier and cost for each items are included.
@@ -58,11 +55,10 @@ The simulation is coordinated by the main() file. After creating an instance of 
 
 
 # Features
-Interactive Control: Personalise the simulation by adjusting the number of baristas and determining the amount of coffee sold.
-Financial Management: Keep a close eye on the shop's cash balance, making sure to carefully monitor expenses for inventory and salaries.
-Inventory Management: Keep track of and restock coffee shop supplies such as milk, beans, and spices.
-Coffee Sales Simulation: Experience the thrill of simulating sales in the coffee industry, where you'll navigate through fluctuating demand and limited resources.
-Participating
-We encourage feedback and contributions to this project. Feel free to fork, modify, and make pull requests or open issues for any suggestions or problems.
+Interactive Control: The simulation can be personalised by adjusting the number of baristas and determining the amount of coffee sold.
+Financial Management: Paying bills and salaries as well as calculating revenue along with inventory replenishments involves signigicant awareness.
+Inventory Management: Keeping track of and restock coffee shop supplies such as milk, beans, and spices.
+Coffee Sales Simulation: The actual feeling of running a coffee shop with real life situations makes it interesting.
+Participation: I would encourage feedbacks and contributions to this project. Feel free to modify, and make pull requests.
 
 
